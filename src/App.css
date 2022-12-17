@@ -73,3 +73,8 @@
   /* background: var(--swiper-pagination-color,var(--swiper-theme-color)); */
   background: #DBB660 !important;
 }
+
+.bannerImg
+{
+  width: 20%;
+}

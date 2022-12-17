@@ -1,8 +1,9 @@
 import React from "react";
-import Head from "./Head";
-import Banner from "../../Banner/Banner";
-import logo from "../../../images/logo.png";
+import Head from "../Head";
+import Banner from "../Banner/Banner";
+import logo from "../../images/logo.png";
 import { Link } from "react-router-dom";
+import AboutSection from "../AboutSection";
 const Header = () => {
   return (
     <div>
@@ -32,7 +33,7 @@ const Header = () => {
                 <Link to="/">Home</Link>
               </li>
               <li>
-                <Link to="/about">About US</Link>
+                <Link to="#about">About US</Link>
               </li>
               <li>
                 <Link to="/services">Our services</Link>
@@ -73,6 +74,7 @@ const Header = () => {
         </div>
       </div>
       <Banner></Banner>
+      <AboutSection></AboutSection>
     </div>
   );
 };

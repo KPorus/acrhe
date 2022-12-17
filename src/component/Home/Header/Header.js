@@ -29,42 +29,42 @@ const Header = () => {
               tabIndex={0}
               className='menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52'>
               <li>
-                <Link to='/'>Home</Link>
+                <Link to="/">Home</Link>
               </li>
               <li>
-                <Link to='/about'>About US</Link>
+                <Link to="/about">About US</Link>
               </li>
               <li>
-                <Link to='/services'>Our services</Link>
+                <Link to="/services">Our services</Link>
               </li>
               <li>
-                <Link to='project'>Recent Projects</Link>
+                <Link to="project">Recent Projects</Link>
               </li>
               <li>
-                <Link to='/contact'>Contact Us</Link>
+                <Link to="/contact">Contact Us</Link>
               </li>
             </ul>
           </div>
-          <Link to='/'>
-            <img src={logo} alt='logo' className='h-20'></img>
+          <Link to="/">
+            <img src={logo} alt="logo" className="h-20"></img>
           </Link>
         </div>
-        <div className='navbar-center hidden lg:flex'>
-          <ul className='menu menu-horizontal px-1'>
+        <div className="navbar-center hidden lg:flex">
+          <ul className="menu menu-horizontal px-1">
             <li>
-              <Link to='/'>Home</Link>
+              <Link to="/">Home</Link>
             </li>
             <li>
-              <Link to='/about'>About US</Link>
+              <Link to="/about">About US</Link>
             </li>
             <li>
-              <Link to='/services'>Our services</Link>
+              <Link to="/services">Our services</Link>
             </li>
             <li>
-              <Link to='project'>Recent Projects</Link>
+              <Link to="/project">Recent Projects</Link>
             </li>
             <li>
-              <Link to='/contact'>Contact Us</Link>
+              <Link to="/contact">Contact Us</Link>
             </li>
           </ul>
         </div>

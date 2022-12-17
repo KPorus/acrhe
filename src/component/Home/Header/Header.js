@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <div>
       <Head></Head>
-      <div className='navbar'>
+      <div className='navbar container mx-auto font-[Montserrat Alternates] font-bold text-[#d9b257]'>
         <div className='navbar-start'>
           <div className='dropdown'>
             <label tabIndex={0} className='btn btn-ghost lg:hidden'>
@@ -29,22 +29,42 @@ const Header = () => {
               tabIndex={0}
               className='menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52'>
               <li>
-                <a>Item 1</a>
+                <Link to='/'>Home</Link>
               </li>
               <li>
-                <a>Item 3</a>
+                <Link to='/about'>About US</Link>
+              </li>
+              <li>
+                <Link to='/services'>Our services</Link>
+              </li>
+              <li>
+                <Link to='project'>Recent Projects</Link>
+              </li>
+              <li>
+                <Link to='/contact'>Contact Us</Link>
               </li>
             </ul>
           </div>
-          <Link to="/"><img src={logo} alt="logo" className="h-20"></img></Link>
+          <Link to='/'>
+            <img src={logo} alt='logo' className='h-20'></img>
+          </Link>
         </div>
         <div className='navbar-center hidden lg:flex'>
           <ul className='menu menu-horizontal px-1'>
             <li>
-              <a>Item 1</a>
+              <Link to='/'>Home</Link>
             </li>
             <li>
-              <a>Item 3</a>
+              <Link to='/about'>About US</Link>
+            </li>
+            <li>
+              <Link to='/services'>Our services</Link>
+            </li>
+            <li>
+              <Link to='project'>Recent Projects</Link>
+            </li>
+            <li>
+              <Link to='/contact'>Contact Us</Link>
             </li>
           </ul>
         </div>

@@ -40,21 +40,21 @@ const Banner = () => {
             <div className='img'>
               <img src={img} alt='image'></img>
             </div>
-            <div className='absolute z-1 text-white top-20 font-montserrat'>
-              <h1 className='uppercase text-[0.7rem] font-semibold text-[#d9b257]'>
+            <div className='absolute z-1 text-white sm:top-20 font-montserrat'>
+              <h1 className='uppercase text-[0.7rem] sm:font-semibold text-[#d9b257]'>
                 Architecture & Interior
               </h1>
-              <p className='text-4xl font-bold'>
+              <p className='text-[1rem] md:text-4xl font-bold'>
                 Modern & Unique <br /> Buildings Ever
               </p>
               <a href='#'>
                 {" "}
-                <button className='uppercase font-semibold bg-[#d9b257] py-2 px-7 mt-4'>
+                <button className='uppercase sm:font-semibold bg-[#d9b257] py-0 px-1 mt-0 md:py-2 md:px-7 md:mt-4'>
                   see all
                 </button>
               </a>
 
-              <div className='grid md:grid-cols-3 gap-4 mt-6'>
+              <div className='hidden lg:grid md:grid-cols-3 gap-4 mt-6'>
                 {bannerImg.map((items, i) => (
                   <div className='flex'>
                     <div className='w-36 shadow-xl m-2'>

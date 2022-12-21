@@ -22,7 +22,7 @@ const ServicesSection = () => {
   return (
     <div className='my-20'>
       <div
-        className='servicebanner font-montserrat py-20'
+        className='servicebanner font-montserrat py-6'
         style={{
           background: `url(${img})`,
           backgroundPosition: "center",
@@ -32,13 +32,13 @@ const ServicesSection = () => {
         <div>
           <CommonHead></CommonHead>
         </div>
-        <div className='flex justify-evenly gap-4 my-3 container mx-auto'>
+        <div className='flex flex-col lg:flex-row justify-evenly gap-12 py-6 container mx-auto'>
           {serviceBanner.map((items) => (
-            <div className='flex shadow-xl'>
-              <figure className="relative ">
-                <img src={items.img} alt='service' className='w-full' />
+            <div className='flex relative shadow-xl'>
+              <figure className="">
+                <img src={items.img} alt='service' className='sm:w-full' />
               </figure>
-              <div className="absolute w-80 bg-slate-50 bottom-10 p-4 font-montserrat">
+              <div className="absolute w-80 bg-slate-50 bottom-0 lg:-bottom-4 lg:-right-4 p-4 font-montserrat">
                 <h1 className="text-[#d9b257] font-semibold">{items.head}</h1>
                 <p className="text-[#9999] font-bold">{items.body}</p>
                 <Link to="/project" className="text-center border-b-4 border-[#d9b257]">Know more</Link>

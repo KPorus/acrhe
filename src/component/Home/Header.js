@@ -5,6 +5,7 @@ import logo from "../../images/logo.png";
 import { Link } from "react-router-dom";
 import AboutSection from "../AboutSection";
 import ServicesSection from "../ServicesSection";
+import ProjectSection from "../ProjectSection";
 const Header = () => {
   return (
     <div>
@@ -77,6 +78,7 @@ const Header = () => {
       <Banner></Banner>
       <AboutSection></AboutSection>
       <ServicesSection></ServicesSection>
+      <ProjectSection></ProjectSection>
     </div>
   );
 };

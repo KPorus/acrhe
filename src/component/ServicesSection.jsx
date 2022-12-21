@@ -32,7 +32,7 @@ const ServicesSection = () => {
         <div>
           <CommonHead></CommonHead>
         </div>
-        <div className='flex flex-col lg:flex-row justify-evenly gap-12 py-6 container mx-auto'>
+        <div className='flex flex-col lg:flex-row justify-evenly gap-12 py-6 '>
           {serviceBanner.map((items) => (
             <div className='flex relative shadow-xl'>
               <figure className="">

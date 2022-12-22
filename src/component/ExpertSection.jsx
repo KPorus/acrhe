@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 const ExpertSection = () => {
   return (
-    <div className='expert py-12 my-24'>
+    <div className='expert py-12 my-20'>
       <div className='text-center w-1/2 mx-auto'>
         <h5 className='text-[1rem] font-bold text-[#d9b257]'>Our Experts</h5>
         <p className='text-sm md:text-2xl font-medium text-[#ffff]'>

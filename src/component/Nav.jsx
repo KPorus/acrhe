@@ -1,16 +1,9 @@
-import React from "react";
-import Head from "../Head";
-import Banner from "../Banner/Banner";
-import logo from "../../images/logo.png";
+import React from 'react';
+import logo from "../images/logo.png";
 import { Link } from "react-router-dom";
-import AboutSection from "../AboutSection";
-import ServicesSection from "../ServicesSection";
-import ProjectSection from "../ProjectSection";
-const Header = () => {
-  return (
-    <div>
-      <Head></Head>
-      <div className='navbar container mx-auto  font-bold text-[#d9b257]'>
+const Nav = () => {
+    return (
+        <div className='navbar container mx-auto  font-bold text-[#d9b257]'>
         <div className='navbar-start'>
           <div className='dropdown'>
             <label tabIndex={0} className='btn btn-ghost lg:hidden'>
@@ -75,12 +68,7 @@ const Header = () => {
           <a className='btn'>Get started</a>
         </div>
       </div>
-      <Banner></Banner>
-      <AboutSection></AboutSection>
-      <ServicesSection></ServicesSection>
-      <ProjectSection></ProjectSection>
-    </div>
-  );
+    );
 };
 
-export default Header;
+export default Nav;

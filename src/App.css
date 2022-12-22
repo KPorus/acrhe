@@ -180,3 +180,16 @@
   -ms-transition: all linear 300ms;
   -o-transition: all linear 300ms;
 }
+
+.bg-\[\#d9b257\] {
+  --tw-bg-opacity: 1;
+  background-color: #DBB660 !important;
+}
+
+.btn {
+  border-radius: 0 !important;
+  -webkit-border-radius: 0 !important;
+  -moz-border-radius: 0 !important;
+  -ms-border-radius: 0 !important;
+  -o-border-radius: 0 !important;
+}

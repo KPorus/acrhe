@@ -21,12 +21,13 @@ const ServicesSection = () => {
   return (
     <div className='my-20'>
       <div
-        className='servicebanner  py-6'
+        className='servicebanner relative py-6'
         style={{
           background: `url(${img})`,
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
+          zIndex: "1",
         }}>
         <div>
           <div className='text-center w-1/2 mx-auto '>
@@ -39,18 +40,18 @@ const ServicesSection = () => {
             </p>
           </div>
         </div>
-        <div className='flex flex-col lg:flex-row justify-evenly gap-12 py-6 '>
+        <div className='grid sm:grid-cols-2 grid-cols-1 lg:flex  justify-items-center justify-evenly  gap-12 py-6 '>
           {serviceBanner.map((items) => (
             <div className='flex relative shadow-xl'>
               <figure className=''>
                 <img src={items.img} alt='service' className='sm:w-full' />
               </figure>
-              <div className='absolute w-80 bg-slate-50 bottom-0 lg:-bottom-4 lg:-right-4 p-4 '>
-                <h1 className='text-[#d9b257] font-semibold'>{items.head}</h1>
-                <p className='text-[#9999] font-bold'>{items.body}</p>
+              <div className='absolute sm:w-80 bg-slate-50 bottom-0 lg:-bottom-4 lg:-right-4 p-4 '>
+                <h1 className='text-[#d9b257] sm:text-[1rem] text-right font-semibold'>{items.head}</h1>
+                <p className='text-[#9999] font-bold text-right'>{items.body}</p>
                 <Link
                   to='/project'
-                  className='text-center border-b-4 border-[#d9b257]'>
+                  className='ml-10  border-b-4 border-[#d9b257]'>
                   Know more
                 </Link>
               </div>

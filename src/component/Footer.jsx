@@ -2,6 +2,9 @@ import React from "react";
 import img from "../images/footer.png";
 import footerBg from "../images/footer-background.jpg";
 import "../App.css"
+import { BsFillTelephoneFill } from "react-icons/bs";
+import { AiOutlineMail } from "react-icons/ai";
+import { ImLocation2 } from "react-icons/im";
 const Footer = () => {
   return (
     <div
@@ -23,15 +26,14 @@ const Footer = () => {
           </p>
         </div>
         <div>
-          <span className='footer-title'>Contact Us</span>
-          <a className='link link-hover'>Branding</a>
-          <a className='link link-hover'>Design</a>
-          <a className='link link-hover'>Marketing</a>
-          <a className='link link-hover'>Advertisement</a>
+          <span className='footer-title opacity-100 border-b-2 border-[#d9b257]'>Contact Us</span>
+          <a href="Tel-880 1234 567 890" className='link link-hover flex items-center'><BsFillTelephoneFill className="mr-6"></BsFillTelephoneFill>(+880) 1234 567 890{" "}</a>
+          <a href="mailto:arche@gmail.com" className='link link-hover flex items-center'><AiOutlineMail className="mr-6"></AiOutlineMail>arche@gmail.com</a>
+          <a className='link link-hover flex items-center'><ImLocation2 className="mr-6"></ImLocation2>1234, Parkstreet Avenue, America</a>
         </div>
 
         <div className="text-white">
-          <span className='footer-title'>Signup for Newsletter</span>
+          <span className='footer-title opacity-100 border-b-2 border-[#d9b257]'>Signup for Newsletter</span>
           <div className='form-control w-80'>
             <label className='label'>
               <span className='label-text text-white'>Enter your email address</span>

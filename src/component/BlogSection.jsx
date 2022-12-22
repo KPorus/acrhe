@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import img1 from "../images/blogs1.jpg"
 import img2 from "../images/blogs2.jpg"
+import { MdDateRange } from "react-icons/md";
 
 const blog = [
   {
@@ -36,7 +37,7 @@ const BlogSection = () => {
                 <img src={items.img} alt='service' className='sm:w-full' />
               </figure>
               <div className='absolute w-80 bg-slate-50 bottom-0 lg:-bottom-4 lg:-right-4 p-4'>
-                <h1 className='text-[#999999] text-[1rem] text-right font-semibold'>{items.head}{" "}{items.date}</h1>
+                <h1 className='text-[#999999] text-[1rem] text-right font-semibold flex items-center justify-evenly'>{items.head}{" "}<MdDateRange/>{items.date}</h1>
                 <p className='text-[#6e6e6e] font-bold text-right'>{items.body}</p>
                 <Link
                   to='/project'

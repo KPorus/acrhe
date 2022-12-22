@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import img from "../images/about.jpg";
 const AboutSection = () => {
   return (
-    <div className='container mx-auto font-montserrat'>
+    <div className='container mx-auto '>
       <div className='hero'>
         <div className='flex items-center justify-center max-w-[80rem] gap-4 flex-col lg:flex-row  sm:px-4'>
           <img src={img} className='shadow-2xl p-4 sm:p-0' />
@@ -24,26 +24,26 @@ const AboutSection = () => {
               ipsum dolor sit amet, consectetur adipisicing elit.
             </p>
             <Link to='/about'>
-              <button className='border-b-4 border-[#d9b257] font-montserrat uppercase font-bold'>
+              <button className='border-b-4 border-[#d9b257]  uppercase font-bold'>
                 know More
               </button>
             </Link>
           </div>
           <div className="flex lg:flex-col flex-row gap-6">
             <p className="mb-10 border-b-4 border-[#d9b257]">
-              <span className='text-2xl sm:text-6xl font-bold text-[#d9b257] font-montserrat'>
+              <span className='text-2xl sm:text-6xl font-bold text-[#d9b257] '>
                 18
               </span>
               <span className='font-bold text-[1rem] sm:text-xl text-[#999999]'>Years <br/>Experiences</span>
             </p>
             <p className=" mb-10 border-b-4 border-[#d9b257]">
-              <span className='text-2xl sm:text-6xl font-bold text-[#d9b257] font-montserrat'>
+              <span className='text-2xl sm:text-6xl font-bold text-[#d9b257] '>
                 250{" "}
               </span>
               <span className='font-bold text-[1rem] sm:text-xl text-[#999999]'>Total <br/>Projects Done</span>
             </p>
             <p className="mb-10 border-b-4 border-[#d9b257]">
-              <span className='text-2xl sm:text-6xl font-bold text-[#d9b257] font-montserrat'>
+              <span className='text-2xl sm:text-6xl font-bold text-[#d9b257] '>
                 99%
               </span>
               <span className='font-bold text-[1rem] sm:text-xl text-[#999999]'>Almost <br/>Satistfied Client</span>

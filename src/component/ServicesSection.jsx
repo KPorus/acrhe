@@ -22,7 +22,7 @@ const ServicesSection = () => {
   return (
     <div className='my-20'>
       <div
-        className='servicebanner font-montserrat py-6'
+        className='servicebanner  py-6'
         style={{
           background: `url(${img})`,
           backgroundPosition: "center",
@@ -38,7 +38,7 @@ const ServicesSection = () => {
               <figure className="">
                 <img src={items.img} alt='service' className='sm:w-full' />
               </figure>
-              <div className="absolute w-80 bg-slate-50 bottom-0 lg:-bottom-4 lg:-right-4 p-4 font-montserrat">
+              <div className="absolute w-80 bg-slate-50 bottom-0 lg:-bottom-4 lg:-right-4 p-4 ">
                 <h1 className="text-[#d9b257] font-semibold">{items.head}</h1>
                 <p className="text-[#9999] font-bold">{items.body}</p>
                 <Link to="/project" className="text-center border-b-4 border-[#d9b257]">Know more</Link>

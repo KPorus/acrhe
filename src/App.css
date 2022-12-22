@@ -1,4 +1,8 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400;500;600;700;800;900&display=swap');
+*
+{
+  font-family: 'Montserrat Alternates', sans-serif;
+}
 .swiper {
   width: 100%;
   height: 100%;
@@ -77,4 +81,102 @@
 .bannerImg
 {
   width: 20%;
+}
+
+.imgText
+{
+  display: none;
+}
+.projectPart
+{
+  position: relative;
+}
+.projectPart::after
+{
+  position: absolute;
+  width: 100%;
+  height: 0;
+  content: " ";
+  left: 0;
+  top: 0;
+  background-color: rgb(0 0 0 / 66%);
+  opacity: 0;
+}
+
+.projectPart2
+{
+  position: relative;
+}
+.projectPart2::after
+{
+  position: absolute;
+  width: 100%;
+  height: 0;
+  content: " ";
+  left: 0;
+  bottom: 0;
+  background-color: rgb(0 0 0 / 66%);
+  opacity: 0;
+}
+
+.projectPart:hover::after{
+  opacity: 1;
+  height: 85%;
+  transition: all linear 300ms;
+  -webkit-transition: all linear 300ms;
+  -moz-transition: all linear 300ms;
+  -ms-transition: all linear 300ms;
+  -o-transition: all linear 300ms;
+}
+
+.projectPart:hover .imgText
+{
+  display: block;
+  z-index: 1;
+  transition: ease-in-out 300ms;
+  -webkit-transition: ease-in-out 300ms;
+  -moz-transition: ease-in-out 300ms;
+  -ms-transition: ease-in-out 300ms;
+  -o-transition: ease-in-out 300ms;
+}
+
+.projectPart:hover .projectText
+{
+  color: #DBB660;
+  transition: all linear 300ms;
+  -webkit-transition: all linear 300ms;
+  -moz-transition: all linear 300ms;
+  -ms-transition: all linear 300ms;
+  -o-transition: all linear 300ms;
+}
+
+.projectPart2:hover::after{
+  opacity: 1;
+  height: 85%;
+  transition: all linear 300ms;
+  -webkit-transition: all linear 300ms;
+  -moz-transition: all linear 300ms;
+  -ms-transition: all linear 300ms;
+  -o-transition: all linear 300ms;
+}
+
+.projectPart2:hover .imgText
+{
+  display: block;
+  z-index: 1;
+  transition: ease-in-out 300ms;
+  -webkit-transition: ease-in-out 300ms;
+  -moz-transition: ease-in-out 300ms;
+  -ms-transition: ease-in-out 300ms;
+  -o-transition: ease-in-out 300ms;
+}
+
+.projectPart2:hover .projectText
+{
+  color: #DBB660;
+  transition: all linear 300ms;
+  -webkit-transition: all linear 300ms;
+  -moz-transition: all linear 300ms;
+  -ms-transition: all linear 300ms;
+  -o-transition: all linear 300ms;
 }

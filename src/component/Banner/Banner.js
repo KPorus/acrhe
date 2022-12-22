@@ -40,7 +40,7 @@ const Banner = () => {
             <div className='img'>
               <img src={img} alt='image'></img>
             </div>
-            <div className='absolute z-1 text-white sm:top-20 font-montserrat'>
+            <div className='absolute z-1 text-white sm:top-20 '>
               <h1 className='uppercase text-[0.7rem] sm:font-semibold text-[#d9b257]'>
                 Architecture & Interior
               </h1>

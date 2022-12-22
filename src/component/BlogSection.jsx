@@ -35,12 +35,12 @@ const BlogSection = () => {
               <figure className=''>
                 <img src={items.img} alt='service' className='sm:w-full' />
               </figure>
-              <div className='absolute w-80 bg-slate-50 bottom-0 lg:-bottom-4 lg:-right-4 p-4 '>
-                <h1 className='text-[#999999] text-[1rem] font-semibold'>{items.head}{" "}{items.date}</h1>
-                <p className='text-[#9999] font-bold'>{items.body}</p>
+              <div className='absolute w-80 bg-slate-50 bottom-0 lg:-bottom-4 lg:-right-4 p-4'>
+                <h1 className='text-[#999999] text-[1rem] text-right font-semibold'>{items.head}{" "}{items.date}</h1>
+                <p className='text-[#6e6e6e] font-bold text-right'>{items.body}</p>
                 <Link
                   to='/project'
-                  className='text-center border-b-4 border-[#d9b257]'>
+                  className='ml-10 border-b-4 border-[#d9b257]'>
                   Know more
                 </Link>
               </div>

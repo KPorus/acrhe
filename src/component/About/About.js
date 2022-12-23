@@ -59,7 +59,7 @@ const About = () => {
                 </button>
               </Link>
             </div>
-            <div className='flex lg:flex-col flex-row gap-6'>
+            <div className='flex lg:flex-col flex-row gap-6 m-2'>
               <p className='mb-10 border-b-4 border-[#d9b257]'>
                 <span className='text-2xl sm:text-6xl font-bold text-[#d9b257] '>
                   18
@@ -93,7 +93,7 @@ const About = () => {
       </div>
 
       <div className='aboutpart grid grid-cols-1 lg:flex container mx-auto justify-center items-center justify-items-center'>
-        <div className="w-2/5">
+        <div className=" w-[89%] sm:w-2/5">
           <p className="text-base text-[#444444]">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do por
             incididunt ut labore et dolore magna aliqua. Ut enim ad minim iam,

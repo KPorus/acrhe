@@ -93,7 +93,7 @@ const About = () => {
       </div>
 
       <div className='aboutpart grid grid-cols-1 lg:flex container mx-auto justify-center items-center justify-items-center'>
-        <div className=" w-[89%] sm:w-2/5">
+        <div className=" w-[89%] lg:w-2/5">
           <p className="text-base text-[#444444]">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do por
             incididunt ut labore et dolore magna aliqua. Ut enim ad minim iam,
